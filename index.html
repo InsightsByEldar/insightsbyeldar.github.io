@@ -3,156 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>InsightsByEldar – Data-Driven Storytelling</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-  body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f5f7;
-    color: #333;
-  }
-
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: auto;
-    padding: 30px 20px;
-    gap: 20px;
-  }
-
-  /* Left column */
-  .left-column {
-    flex: 2;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .report-card {
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-
-  .report-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
-  }
-
-  .report-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .report-title {
-    padding: 15px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #111;
-  }
-
-  /* Right column */
-  .right-column {
-    flex: 1;
-    min-width: 250px;
-    background-color: #fff;
-    padding: 25px 20px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .right-column h2 {
-    margin-top: 0;
-    font-weight: 700;
-    color: #111;
-  }
-
-  .right-column p {
-    line-height: 1.6;
-  }
-
-  .cta-button {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
-    text-align: center;
-    transition: background-color 0.2s;
-  }
-
-  .cta-button:hover {
-    background-color: #0056b3;
-  }
-
-  .right-column ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-  }
-
-  .right-column ul li a {
-    color: #007bff;
-    text-decoration: none;
-  }
-
-  .right-column ul li a:hover {
-    text-decoration: underline;
-  }
-
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
-  }
-
-</style>
+<title>Insights By Eldar</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+  <h1>Insights By Eldar</h1>
+  <p>Data-Driven Storytelling for Crypto & Finance</p>
+</header>
 
-<div class="container">
+<main class="container">
+  <section class="left-column">
+    <article>
+      <a href="#"><img src="images/eth-on-fire.jpg" alt="ETH on Fire"></a>
+      <h2><a href="#">ETH on Fire</a></h2>
+      <p>Latest crypto market coverage.</p>
+    </article>
 
-  <!-- Left Column: Reports -->
-  <div class="left-column">
-    <div class="report-card">
-      <img src="images/eth-on-fire.jpg" alt="ETH on Fire">
-      <div class="report-title">ETH on Fire – Aug 2025</div>
-    </div>
-    <div class="report-card">
-      <img src="crypto-vs-stocks-thumbnail.jpg" alt="Crypto vs Stocks">
-      <div class="report-title">Crypto vs Stocks – July 2025</div>
-    </div>
-    <!-- Duplicate report-card divs for more reports -->
-  </div>
+    <article>
+      <a href="#"><img src="images/crypto-vs-stocks.jpg" alt="Crypto vs Stocks"></a>
+      <h2><a href="#">Crypto vs Stocks – July 2025</a></h2>
+      <p>Contrarian analysis comparing volatility and returns.</p>
+    </article>
+  </section>
 
-  <!-- Right Column: Pitch + Links -->
-  <div class="right-column">
-    <h2>InsightsByEldar</h2>
-    <p>Data-Driven Storytelling for Crypto & Finance. I transform complex data into compelling, visual narratives that engage your audience and drive decisions.</p>
-    <a href="https://www.upwork.com/freelancers/~yourprofile" class="cta-button" target="_blank">Contact Me</a>
-
-    <h3>Other Profiles</h3>
+  <aside class="right-column">
+    <h2>About Me</h2>
+    <p>I turn raw data into compelling stories for crypto & finance. Engage me to deliver reports that inform and captivate.</p>
+    <h3>Hire me on Upwork</h3>
     <ul>
-      <li><a href="https://www.upwork.com/freelancers/~yourprofile" target="_blank">Upwork</a></li>
-      <li><a href="https://www.linkedin.com/in/eldarhajiyev/" target="_blank">LinkedIn</a></li>
-      <!-- Add more links -->
+      <li><a href="https://www.upwork.com/freelancers/~YOURPROFILE1" target="_blank">Upwork Profile 1</a></li>
+      <li><a href="https://www.upwork.com/freelancers/~YOURPROFILE2" target="_blank">Upwork Profile 2</a></li>
     </ul>
-  </div>
+  </aside>
+</main>
 
-</div>
-
+<footer>
+  <p>&copy; 2025 Insights By Eldar</p>
+</footer>
 </body>
 </html>
-
