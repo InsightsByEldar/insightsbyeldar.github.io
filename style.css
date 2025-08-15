@@ -94,17 +94,33 @@ header p {
   padding-left: 0;
 }
 .right-column li a {
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
-  margin: 0.3rem 0;
-  background: #1a73e8;
-  color: white;
-  border-radius: 6px;
+  color: #1a73e8;
   text-decoration: none;
-  transition: background 0.3s ease;
+  transition: color 0.2s ease;
 }
 .right-column li a:hover {
-  background: #1558b0;
+  text-decoration: underline;
+  color: #1558b0;
+}
+
+/* Contact Button */
+.contact-wrapper {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.contact-btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #1a73e8, #6cace4);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+.contact-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
 }
 
 /* Footer */
