@@ -11,7 +11,7 @@ body {
 /* Header */
 header {
   text-align: center;
-  padding: 2.5rem 1rem;
+  padding: 1.5rem 1rem; /* reduced height */
   background: linear-gradient(135deg, #111, #1e3c72, #2a5298);
   color: white;
   border-bottom: 3px solid #1a73e8;
@@ -137,3 +137,4 @@ footer {
   .container { flex-direction: column; }
   .right-column { margin-top: 2rem; }
 }
+
