@@ -1,1 +1,1 @@
-InsightsByEldar – Data-Driven Storytelling for Crypto & Finance
+Data-Driven Storytelling for Crypto & Finance by Eldar Hajiyev
